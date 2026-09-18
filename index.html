@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReserveChain.io — Industrial-Metals-Backed RWA Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans">
+
+    <!-- Prelaunch Mandatory Disclosure Banner -->
+    <div class="bg-amber-900/40 border-b border-amber-500/30 text-amber-200 text-xs px-4 py-3 text-center">
+        <p class="max-w-7xl mx-auto">
+            <strong>MANDATORY DISCLOSURE:</strong> ReserveChain is currently in development. No tokens are being offered or sold through this website. Registration of interest does not constitute an investment, token purchase, asset reservation, price reservation, token allocation or entitlement to participate in any future offering. Any future availability will be subject to the final Swiss corporate and legal structure, definitive offering documentation, asset verification, custody arrangements, jurisdictional eligibility, KYC/KYB, sanctions screening and final approval.
+        </p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white">R</div>
+                <span class="text-xl font-bold tracking-wider text-white">RESERVECHAIN<span class="text-blue-500">.IO</span></span>
+            </div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#overview" class="hover:text-blue-400 transition">Overview</a>
+                <a href="#metals" class="hover:text-blue-400 transition">Metal Programs</a>
+                <a href="#passport" class="hover:text-blue-400 transition">Asset Passport</a>
+                <a href="#whitepaper" class="hover:text-blue-400 transition">Whitepaper</a>
+                <a href="#admin" class="hover:text-blue-400 transition">CMS Architecture</a>
+            </div>
+            <div>
+                <a href="#waitlist" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold px-4 py-2 rounded-lg transition">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-6 text-center max-w-5xl mx-auto">
+        <span class="bg-blue-900/50 text-blue-400 border border-blue-500/30 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-widest">Swiss Institutional Grade RWA Platform</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight text-white">
+            Turnkey Industrial-Metals-Backed <br><span class="text-blue-500">ERC-20 Tokenization</span>
+        </h1>
+        <p class="text-slate-400 text-lg mt-6 max-w-3xl mx-auto">
+            Institutional infrastructure for ultra-high-purity Copper Powder and high-purity Nickel Wire tokenization with verifiable custody and Digital Asset Passports.
+        </p>
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a href="#metals" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-6 py-3 rounded-lg shadow-lg transition">Explore Metal Assets</a>
+            <a href="#passport" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">View Asset Passport Demo</a>
+        </div>
+    </section>
+
+    <!-- Metal Programs Section -->
+    <section id="metals" class="py-16 bg-slate-900/50 border-y border-slate-800 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-2xl font-bold text-center mb-12">Supported Industrial Asset Programs</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Copper Powder -->
+                <div class="bg-slate-800/60 border border-slate-700 p-6 rounded-xl">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs text-amber-500 font-bold uppercase">Program 01</span>
+                            <h3 class="text-xl font-bold text-white mt-1">Ultra-High-Purity Copper Powder</h3>
+                        </div>
+                        <span class="bg-amber-500/10 text-amber-400 text-xs px-2.5 py-1 rounded border border-amber-500/20">Purity: 99.999%</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-4">Chemical Grade & Nano-powder reserved in Swiss secure vaults under verified independent custody.</p>
+                    <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-700/50 pt-4">
+                        <li><strong class="text-slate-100">Specification:</strong> Cu-Isotope 63/65 Standard</li>
+                        <li><strong class="text-slate-100">Packaging:</strong> Hermetically Sealed Argon Containers</li>
+                        <li><strong class="text-slate-100">Verification:</strong> Certificate of Analysis (CoA) & IGAS Independent Audit</li>
+                    </ul>
+                </div>
+
+                <!-- Nickel Wire -->
+                <div class="bg-slate-800/60 border border-slate-700 p-6 rounded-xl">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs text-blue-500 font-bold uppercase">Program 02</span>
+                            <h3 class="text-xl font-bold text-white mt-1">High-Purity Nickel Wire</h3>
+                        </div>
+                        <span class="bg-blue-500/10 text-blue-400 text-xs px-2.5 py-1 rounded border border-blue-500/20">Purity: 99.98% NP2</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-4">High-precision industrial nickel coils tracked via tamper-evident lot registry.</p>
+                    <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-700/50 pt-4">
+                        <li><strong class="text-slate-100">Specification:</strong> Diameter 0.025mm NP2 Grade</li>
+                        <li><strong class="text-slate-100">Packaging:</strong> Sealed Coils with Security Seals</li>
+                        <li><strong class="text-slate-100">Verification:</strong> Spectrometric Analysis & Vault Deposit Receipt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Asset Passport Sample -->
+    <section id="passport" class="py-16 px-6 max-w-7xl mx-auto">
+        <h2 class="text-2xl font-bold mb-2 text-center">Sample Digital Asset Passport</h2>
+        <p class="text-slate-400 text-center text-sm mb-10">Illustrative verification template for individual reserve lots (Non-operational pre-launch version)</p>
+        
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 md:p-8 max-w-4xl mx-auto shadow-2xl">
+            <div class="flex flex-wrap justify-between items-center border-b border-slate-800 pb-4 mb-6">
+                <div>
+                    <span class="text-xs font-mono text-blue-400">PASSPORT ID: DAP-CU-2026-00912</span>
+                    <h4 class="text-lg font-bold text-white">Lot #482 — Copper Powder Reserve</h4>
+                </div>
+                <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20">Status: Verified Draft</span>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 text-sm mb-6">
+                <div class="bg-slate-800/40 p-4 rounded-lg">
+                    <span class="text-slate-400 text-xs block">Assigned Custodian</span>
+                    <strong class="text-slate-200">Swiss Secure Vaults AG</strong>
+                </div>
+                <div class="bg-slate-800/40 p-4 rounded-lg">
+                    <span class="text-slate-400 text-xs block">Quantity & Weight</span>
+                    <strong class="text-slate-200">50.00 KG (Argon Container)</strong>
+                </div>
+                <div class="bg-slate-800/40 p-4 rounded-lg">
+                    <span class="text-slate-400 text-xs block">Verification Lab</span>
+                    <strong class="text-slate-200">SGS / IGAS Certified Report</strong>
+                </div>
+            </div>
+
+            <div class="border border-dashed border-slate-700 p-4 rounded-lg bg-slate-950/50 text-xs text-slate-400 flex items-center justify-between">
+                <div>
+                    <i class="fa-solid fa-file-contract text-blue-400 mr-2"></i>
+                    <span>Certificate_of_Analysis_Lot482.pdf (Illustrative Sample)</span>
+                </div>
+                <span class="text-blue-400 font-mono">HASH: 0x8f...3a91</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="waitlist" class="py-16 bg-blue-950/30 border-t border-slate-800 px-6 text-center">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-2xl font-bold mb-4">Register Interest for Updates</h2>
+            <p class="text-slate-400 text-sm mb-6">Stay informed on platform progress and regulatory compliance milestones.</p>
+            <form onsubmit="alert('Thank you for registering interest.'); return false;" class="flex gap-2">
+                <input type="email" required placeholder="Enter corporate email" class="bg-slate-900 border border-slate-700 px-4 py-3 rounded-lg text-sm text-slate-200 w-full focus:outline-none focus:border-blue-500">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg text-sm transition whitespace-nowrap">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-6">
+        <p>&copy; 2026 ReserveChain.io. All rights reserved. Built for Swiss Pre-launch Evaluation.</p>
+    </footer>
+
+</body>
+</html>
